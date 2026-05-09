@@ -1,0 +1,8 @@
+tensorflow
+opencv-python
+numpy
+matplotlib
+streamlit
+pillow
+groq
+supabase
