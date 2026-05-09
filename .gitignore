@@ -3,6 +3,8 @@ venv/
 env/
 .env
 
+.streamlit/
+
 # Python cache (Faltu temporary files)
 __pycache__/
 *.py[cod]
@@ -19,5 +21,9 @@ Thumbs.db
 *.pdf
 temp_scan.jpg
 
-# Large Data/Models (Agar tum LFS use nahi kar rahe toh inhein ignore karna padta hai)
-# Lekin hum LFS use kar rahe hain, toh models ko yahan mat likhna.
+# Large Data/Models (must ignore — too large for GitHub)
+*.h5
+*.hdf5
+data/
+*.pkl
+*.pickle
